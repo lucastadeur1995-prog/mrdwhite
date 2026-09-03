@@ -62,12 +62,6 @@ export default function Landing({ onNavigate }: LandingProps) {
             <div className="content-wrapper">
                 <main className="landing-main-simple">
 
-                    <img
-                        className="hero-whatsapp-image"
-                        src="https://i.ibb.co/tMqxS6SX/wpp-dobra1.png"
-                        alt="Conversación de WhatsApp"
-                    />
-
                     <h1 className="headline-simple">
                         <span className="headline-text">Ella todavía te extraña.</span>
                     </h1>
@@ -76,6 +70,12 @@ export default function Landing({ onNavigate }: LandingProps) {
                         <span>Hay un momento exacto para reaparecer.</span>
                         <span>El quiz te muestra cuándo.</span>
                     </div>
+
+                    <img
+                        className="hero-whatsapp-image"
+                        src="https://i.ibb.co/tMqxS6SX/wpp-dobra1.png"
+                        alt="Conversación de WhatsApp"
+                    />
 
                     <p className="hero-coverage">No importa si hay silencio o si hay otra persona.</p>
 
@@ -140,16 +140,16 @@ export default function Landing({ onNavigate }: LandingProps) {
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    gap: 1.25rem;
+                    gap: 0.9rem;
                     min-height: 70vh;
                     text-align: center;
                 }
 
                 .hero-whatsapp-image {
                     display: block;
-                    width: min(100%, 400px);
+                    width: min(100%, 420px);
                     height: auto;
-                    max-height: 38vh;
+                    max-height: 30vh;
                     object-fit: contain;
                     margin: 0 auto 0.5rem;
                     border-radius: 18px;
@@ -400,8 +400,8 @@ export default function Landing({ onNavigate }: LandingProps) {
                     }
 
                     .hero-whatsapp-image {
-                        width: min(100%, 400px);
-                        max-height: 34vh;
+                        width: min(100%, 420px);
+                        max-height: 28vh;
                     }
 
                     .cta-button-simple {
