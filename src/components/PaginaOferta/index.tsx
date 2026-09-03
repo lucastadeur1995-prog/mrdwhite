@@ -120,7 +120,7 @@ export default function PaginaOferta({
 
                 <p style={{
                     fontSize: 'clamp(1rem, 4vw, 1.2rem)',
-                    color: '#facc15',
+                    color: '#166534',
                     lineHeight: '1.6',
                     marginBottom: 'clamp(16px, 4vw, 20px)',
                     fontWeight: '700'
@@ -137,7 +137,7 @@ export default function PaginaOferta({
                 }}>
                     Ya conoces tu diagnóstico.<br/>
                     Ya viste la Ventana de 72 Horas.<br/>
-                    Ya sabes que <strong style={{ color: '#facc15' }}>esto funciona</strong>.<br/><br/>
+                    Ya sabes que <strong style={{ color: '#166534' }}>esto funciona</strong>.<br/><br/>
                     
                     Ahora solo falta una cosa:<br/>
                     <strong style={{ color: '#16a34a', fontSize: 'clamp(1.15rem, 4.5vw, 1.35rem)' }}>
@@ -169,7 +169,7 @@ export default function PaginaOferta({
                         <p style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1rem)', color: 'rgba(255,255,255,0.8)', margin: '0 0 4px 0' }}>
                             Tu oferta especial expira en:
                         </p>
-                        <p style={{ fontSize: 'clamp(1.5rem, 6vw, 2rem)', color: '#facc15', fontWeight: '900', margin: 0 }}>
+                        <p style={{ fontSize: 'clamp(1.5rem, 6vw, 2rem)', color: '#166534', fontWeight: '900', margin: 0 }}>
                             {formatTime(offerTimeLeft)}
                         </p>
                     </div>
@@ -241,7 +241,7 @@ export default function PaginaOferta({
                             <p style={{ fontSize: 'clamp(3rem, 10vw, 4rem)', color: '#16a34a', fontWeight: '900', margin: '0 0 8px 0', lineHeight: '1' }}>
                                 94%
                             </p>
-                            <p style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'rgba(255,255,255,0.9)', margin: 0 }}>
+                            <p style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155', margin: 0 }}>
                                 volvieron con su ex
                             </p>
                         </div>
@@ -250,7 +250,7 @@ export default function PaginaOferta({
                             <p style={{ fontSize: 'clamp(3rem, 10vw, 4rem)', color: '#16a34a', fontWeight: '900', margin: '0 0 8px 0', lineHeight: '1' }}>
                                 87%
                             </p>
-                            <p style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'rgba(255,255,255,0.9)', margin: 0 }}>
+                            <p style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155', margin: 0 }}>
                                 notaron cambios en 13-21 días
                             </p>
                         </div>
@@ -259,7 +259,7 @@ export default function PaginaOferta({
                             <p style={{ fontSize: 'clamp(3rem, 10vw, 4rem)', color: '#16a34a', fontWeight: '900', margin: '0 0 8px 0', lineHeight: '1' }}>
                                 72%
                             </p>
-                            <p style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'rgba(255,255,255,0.9)', margin: 0 }}>
+                            <p style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155', margin: 0 }}>
                                 autoestima elevada
                             </p>
                         </div>
@@ -269,7 +269,7 @@ export default function PaginaOferta({
                 {/* Título principal */}
                 <h2 style={{
                     fontSize: 'clamp(1.75rem, 7vw, 2.5rem)',
-                    color: 'white',
+                    color: '#334155',
                     fontWeight: '900',
                     textAlign: 'center',
                     lineHeight: '1.2',
@@ -313,7 +313,7 @@ export default function PaginaOferta({
                     <span style={{ fontSize: 'clamp(1.4rem, 5vw, 1.8rem)', flexShrink: 0 }}>👉</span>
                     <p style={{
                         fontSize: 'clamp(0.95rem, 3.8vw, 1.1rem)',
-                        color: 'white',
+                        color: '#334155',
                         lineHeight: '1.55',
                         margin: 0,
                         fontWeight: '600'
@@ -332,8 +332,8 @@ export default function PaginaOferta({
                     
                     {/* PLANO 1: ESSENCIAL - $14 */}
                     <div style={{
-                        background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(96, 165, 250, 0.1))',
-                        border: selectedPlan === 14 ? '3px solid #3b82f6' : '2px solid rgba(59, 130, 246, 0.3)',
+                        background: '#f8fafc',
+                        border: selectedPlan === 14 ? '3px solid #16a34a' : '2px solid #e2e8f0',
                         borderRadius: '16px',
                         padding: 'clamp(20px, 5vw, 28px)',
                         display: 'flex',
@@ -365,15 +365,15 @@ export default function PaginaOferta({
                         
                         <div style={{ marginBottom: 'clamp(20px, 4vw, 24px)', flex: 1 }}>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'white' }}>✅ Protocolo de 72 Horas Completo</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'white' }}>✅ Módulos 1-3 (Contacto Cero + Atracción + Reconquista)</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'white' }}>✅ 10 Templates de Mensajes Irresistibles</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'white' }}>✅ E-Book: 7 Pasos Para Ser Irresistible</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'white' }}>✅ Soporte por Email</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'white' }}>✅ Garantía de 30 Días</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'rgba(255,255,255,0.4)' }}>❌ Módulo 4: Protocolo de Emergencia</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'rgba(255,255,255,0.4)' }}>❌ Soporte WhatsApp Prioritario</div>
-                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: 'rgba(255,255,255,0.4)' }}>❌ Comunidad Privada</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155' }}>✅ Protocolo de 72 Horas Completo</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155' }}>✅ Módulos 1-3 (Contacto Cero + Atracción + Reconquista)</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155' }}>✅ 10 Templates de Mensajes Irresistibles</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155' }}>✅ E-Book: 7 Pasos Para Ser Irresistible</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155' }}>✅ Soporte por Email</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#334155' }}>✅ Garantía de 30 Días</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#64748b' }}>❌ Módulo 4: Protocolo de Emergencia</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#64748b' }}>❌ Soporte WhatsApp Prioritario</div>
+                                <div style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)', color: '#64748b' }}>❌ Comunidad Privada</div>
                             </div>
                         </div>
                         
@@ -381,7 +381,7 @@ export default function PaginaOferta({
                             onClick={() => setSelectedPlan(14)}
                             style={{
                                 background: selectedPlan === 14 ? '#3b82f6' : 'transparent',
-                                color: 'white',
+                                color: '#334155',
                                 fontSize: 'clamp(1rem, 4vw, 1.25rem)',
                                 fontWeight: '900',
                                 padding: 'clamp(16px, 4vw, 20px)',
@@ -436,7 +436,7 @@ export default function PaginaOferta({
                         }}>
                             <p style={{
                                 fontSize: 'clamp(0.8rem, 3vw, 0.95rem)',
-                                color: '#facc15',
+                                color: '#166534',
                                 fontWeight: '700',
                                 margin: 0,
                                 lineHeight: '1.3'
@@ -466,7 +466,7 @@ export default function PaginaOferta({
                             </p>
                             <p style={{ 
                                 background: 'rgba(234, 179, 8, 0.2)',
-                                color: '#facc15',
+                                color: '#166534',
                                 fontSize: 'clamp(0.8rem, 3vw, 0.95rem)',
                                 fontWeight: '900',
                                 padding: '4px 12px',
@@ -493,7 +493,7 @@ export default function PaginaOferta({
                             onClick={() => setSelectedPlan(27)}
                             style={{
                                 background: selectedPlan === 27 ? 'linear-gradient(135deg, #16a34a, #059669)' : 'linear-gradient(135deg, #16a34a, #059669)',
-                                color: 'white',
+                                color: '#334155',
                                 fontSize: 'clamp(1rem, 4vw, 1.25rem)',
                                 fontWeight: '900',
                                 padding: 'clamp(16px, 4vw, 20px)',
@@ -517,7 +517,7 @@ export default function PaginaOferta({
                     style={{
                         width: '100%',
                         background: selectedPlan ? 'linear-gradient(135deg, #16a34a, #059669)' : 'rgba(100,100,100,0.5)',
-                        color: 'white',
+                        color: '#334155',
                         fontWeight: '900',
                         padding: 'clamp(20px, 4vw, 26px)',
                         borderRadius: '16px',
@@ -565,7 +565,7 @@ export default function PaginaOferta({
                 }}>
                     <h2 style={{
                         fontSize: 'clamp(1.4rem, 5.5vw, 1.8rem)',
-                        color: 'white',
+                        color: '#334155',
                         fontWeight: '900',
                         textAlign: 'center',
                         marginBottom: 'clamp(16px, 3vw, 24px)'
@@ -627,7 +627,7 @@ export default function PaginaOferta({
                                     </span>
                                 </div>
                                 <div style={{
-                                    color: '#facc15',
+                                    color: '#166534',
                                     fontSize: 'clamp(0.9rem, 3.5vw, 1.1rem)',
                                     marginBottom: 'clamp(6px, 1.5vw, 8px)'
                                 }}>
@@ -636,7 +636,7 @@ export default function PaginaOferta({
                                 <p style={{
                                     fontSize: 'clamp(0.85rem, 3.2vw, 1rem)',
                                     lineHeight: '1.5',
-                                    color: 'white',
+                                    color: '#334155',
                                     margin: 0,
                                     fontStyle: 'italic'
                                 }}>
@@ -693,7 +693,7 @@ export default function PaginaOferta({
                                     </span>
                                 </div>
                                 <div style={{
-                                    color: '#facc15',
+                                    color: '#166534',
                                     fontSize: 'clamp(0.9rem, 3.5vw, 1.1rem)',
                                     marginBottom: 'clamp(6px, 1.5vw, 8px)'
                                 }}>
@@ -702,7 +702,7 @@ export default function PaginaOferta({
                                 <p style={{
                                     fontSize: 'clamp(0.85rem, 3.2vw, 1rem)',
                                     lineHeight: '1.5',
-                                    color: 'white',
+                                    color: '#334155',
                                     margin: 0,
                                     fontStyle: 'italic',
                                     fontWeight: '700'
@@ -722,7 +722,7 @@ export default function PaginaOferta({
                 }}>
                     <h2 style={{
                         fontSize: 'clamp(1.4rem, 5.5vw, 1.8rem)',
-                        color: 'white',
+                        color: '#334155',
                         fontWeight: '900',
                         textAlign: 'center',
                         marginBottom: 'clamp(16px, 3vw, 24px)'
@@ -748,7 +748,7 @@ export default function PaginaOferta({
                             <span style={{ fontSize: 'clamp(1.8rem, 5vw, 2.2rem)', flexShrink: 0 }}>🧠</span>
                             <p style={{
                                 fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)',
-                                color: 'white',
+                                color: '#334155',
                                 lineHeight: '1.5',
                                 margin: 0
                             }}>
@@ -768,7 +768,7 @@ export default function PaginaOferta({
                             <span style={{ fontSize: 'clamp(1.8rem, 5vw, 2.2rem)', flexShrink: 0 }}>❤️</span>
                             <p style={{
                                 fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)',
-                                color: 'white',
+                                color: '#334155',
                                 lineHeight: '1.5',
                                 margin: 0
                             }}>
@@ -788,11 +788,11 @@ export default function PaginaOferta({
                             <span style={{ fontSize: 'clamp(1.8rem, 5vw, 2.2rem)', flexShrink: 0 }}>💪</span>
                             <p style={{
                                 fontSize: 'clamp(0.9rem, 3.5vw, 1.05rem)',
-                                color: 'white',
+                                color: '#334155',
                                 lineHeight: '1.5',
                                 margin: 0
                             }}>
-                                Tendrás <strong style={{ color: '#facc15' }}>confianza y autoestima elevadas</strong>
+                                Tendrás <strong style={{ color: '#166534' }}>confianza y autoestima elevadas</strong>
                             </p>
                         </div>
                         
@@ -826,7 +826,7 @@ export default function PaginaOferta({
                     <p style={{
                         fontSize: 'clamp(0.95rem, 3.8vw, 1.15rem)',
                         lineHeight: '1.6',
-                        color: 'white',
+                        color: '#334155',
                         marginBottom: 'clamp(12px, 3vw, 16px)'
                     }}>
                         Si en 30 días no ves <strong style={{ color: '#16a34a' }}>resultados concretos</strong> en tu reconquista 
@@ -848,7 +848,7 @@ export default function PaginaOferta({
                         <p style={{ fontSize: 'clamp(0.85rem, 3.5vw, 1rem)', color: 'rgba(255,255,255,0.95)', margin: 0 }}>
                             ✅ Reembolso en 24-48 horas
                         </p>
-                        <p style={{ fontSize: 'clamp(0.85rem, 3.5vw, 1rem)', color: '#facc15', margin: 0, fontWeight: '700' }}>
+                        <p style={{ fontSize: 'clamp(0.85rem, 3.5vw, 1rem)', color: '#166534', margin: 0, fontWeight: '700' }}>
                             ✅ RIESGO CERO PARA TI
                         </p>
                     </div>
@@ -864,7 +864,7 @@ export default function PaginaOferta({
                 }}>
                     <h3 style={{
                         fontSize: 'clamp(1.15rem, 4.5vw, 1.4rem)',
-                        color: 'white',
+                        color: '#334155',
                         fontWeight: '900',
                         textAlign: 'center',
                         marginBottom: 'clamp(14px, 3vw, 18px)'
@@ -879,7 +879,7 @@ export default function PaginaOferta({
                     }}>
                         {/* Pergunta 1 */}
                         <details style={{
-                            background: 'rgba(234, 179, 8, 0.1)',
+                            background: '#f8fafc',
                             borderLeft: '4px solid #16a34a',
                             padding: 'clamp(14px, 3.5vw, 16px)',
                             borderRadius: '8px',
@@ -887,7 +887,7 @@ export default function PaginaOferta({
                         }}>
                             <summary style={{
                                 fontSize: 'clamp(1rem, 4vw, 1.15rem)',
-                                color: '#facc15',
+                                color: '#166534',
                                 fontWeight: '700',
                                 cursor: 'pointer',
                                 listStyle: 'none'
@@ -896,7 +896,7 @@ export default function PaginaOferta({
                             </summary>
                             <p style={{
                                 fontSize: 'clamp(0.95rem, 3.8vw, 1.05rem)',
-                                color: 'rgba(255,255,255,0.9)',
+                                color: '#334155',
                                 marginTop: 'clamp(12px, 3vw, 16px)',
                                 lineHeight: '1.6'
                             }}>
@@ -907,7 +907,7 @@ export default function PaginaOferta({
 
                         {/* Pergunta 2 */}
                         <details style={{
-                            background: 'rgba(234, 179, 8, 0.1)',
+                            background: '#f8fafc',
                             borderLeft: '4px solid #16a34a',
                             padding: 'clamp(14px, 3.5vw, 16px)',
                             borderRadius: '8px',
@@ -915,7 +915,7 @@ export default function PaginaOferta({
                         }}>
                             <summary style={{
                                 fontSize: 'clamp(1rem, 4vw, 1.15rem)',
-                                color: '#facc15',
+                                color: '#166534',
                                 fontWeight: '700',
                                 cursor: 'pointer',
                                 listStyle: 'none'
@@ -924,7 +924,7 @@ export default function PaginaOferta({
                             </summary>
                             <p style={{
                                 fontSize: 'clamp(0.95rem, 3.8vw, 1.05rem)',
-                                color: 'rgba(255,255,255,0.9)',
+                                color: '#334155',
                                 marginTop: 'clamp(12px, 3vw, 16px)',
                                 lineHeight: '1.6'
                             }}>
@@ -936,7 +936,7 @@ export default function PaginaOferta({
 
                         {/* Pergunta 3 (NOVA) */}
                         <details style={{
-                            background: 'rgba(234, 179, 8, 0.1)',
+                            background: '#f8fafc',
                             borderLeft: '4px solid #16a34a',
                             padding: 'clamp(14px, 3.5vw, 16px)',
                             borderRadius: '8px',
@@ -944,7 +944,7 @@ export default function PaginaOferta({
                         }}>
                             <summary style={{
                                 fontSize: 'clamp(1rem, 4vw, 1.15rem)',
-                                color: '#facc15',
+                                color: '#166534',
                                 fontWeight: '700',
                                 cursor: 'pointer',
                                 listStyle: 'none'
@@ -953,7 +953,7 @@ export default function PaginaOferta({
                             </summary>
                             <p style={{
                                 fontSize: 'clamp(0.95rem, 3.8vw, 1.05rem)',
-                                color: 'rgba(255,255,255,0.9)',
+                                color: '#334155',
                                 marginTop: 'clamp(12px, 3vw, 16px)',
                                 lineHeight: '1.6'
                             }}>
@@ -963,7 +963,7 @@ export default function PaginaOferta({
 
                         {/* Pergunta 4 (NOVA) */}
                         <details style={{
-                            background: 'rgba(234, 179, 8, 0.1)',
+                            background: '#f8fafc',
                             borderLeft: '4px solid #16a34a',
                             padding: 'clamp(14px, 3.5vw, 16px)',
                             borderRadius: '8px',
@@ -971,7 +971,7 @@ export default function PaginaOferta({
                         }}>
                             <summary style={{
                                 fontSize: 'clamp(1rem, 4vw, 1.15rem)',
-                                color: '#facc15',
+                                color: '#166534',
                                 fontWeight: '700',
                                 cursor: 'pointer',
                                 listStyle: 'none'
@@ -980,7 +980,7 @@ export default function PaginaOferta({
                             </summary>
                             <p style={{
                                 fontSize: 'clamp(0.95rem, 3.8vw, 1.05rem)',
-                                color: 'rgba(255,255,255,0.9)',
+                                color: '#334155',
                                 marginTop: 'clamp(12px, 3vw, 16px)',
                                 lineHeight: '1.6'
                             }}>
@@ -997,7 +997,7 @@ export default function PaginaOferta({
                     style={{
                         width: '100%',
                         background: selectedPlan ? 'linear-gradient(135deg, #16a34a, #059669)' : 'rgba(100,100,100,0.5)',
-                        color: 'white',
+                        color: '#334155',
                         fontSize: 'clamp(1.25rem, 5vw, 1.75rem)',
                         fontWeight: '900',
                         padding: 'clamp(20px, 4.5vw, 28px)',
@@ -1031,7 +1031,7 @@ export default function PaginaOferta({
                         <p style={{ fontSize: 'clamp(0.8rem, 3vw, 0.95rem)', color: 'rgba(255,255,255,0.7)', margin: '0 0 6px 0' }}>
                             ⏰ Expira en:
                         </p>
-                        <p style={{ fontSize: 'clamp(1.1rem, 4.5vw, 1.4rem)', color: '#facc15', fontWeight: '900', margin: 0 }}>
+                        <p style={{ fontSize: 'clamp(1.1rem, 4.5vw, 1.4rem)', color: '#166534', fontWeight: '900', margin: 0 }}>
                             {formatTime(offerTimeLeft)}
                         </p>
                     </div>
