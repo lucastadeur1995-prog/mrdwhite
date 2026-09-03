@@ -460,6 +460,50 @@ export default function Result({ onNavigate }: ResultProps) {
                 details summary::-webkit-details-marker { display: none; }
                 details summary::before { content: '▶ '; transition: transform 0.3s; display: inline-block; }
                 details[open] summary::before { transform: rotate(90deg); }
+
+                /* Tema claro do funil: preserva estrutura, conteúdo e comportamento. */
+                .result-container { background: #ffffff; color: #334155; min-height: 100vh; }
+                .pre-offer-transition-section { background: #f8fafc !important; border-color: #e2e8f0 !important; box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06) !important; }
+                .pre-offer-transition-section h3 { color: #16a34a !important; }
+                .pre-offer-transition-section p { color: #334155 !important; }
+                .pre-offer-transition-section strong { color: #16a34a !important; }
+                .offer-urgency-timer { background: #f8fafc !important; border-color: #e2e8f0 !important; box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06) !important; }
+                .offer-urgency-timer p:first-of-type { color: #64748b !important; }
+                .offer-urgency-timer p:last-of-type { color: #16a34a !important; }
+                .offer-section-custom > div[style] { box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06) !important; }
+                .offer-section-custom img { border-color: #e2e8f0 !important; box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08) !important; }
+                .result-header, .progress-bar-container { background: #f8fafc; border-color: #e2e8f0; }
+                .result-title, .revelation h2 { color: #0f172a; }
+                .progress-step { color: #64748b; }
+                .step-circle { background: #f8fafc; border: 1px solid #e2e8f0; color: #64748b; }
+                .progress-step.active .step-circle,
+                .progress-step.completed .step-circle { background: #16a34a; color: #ffffff; }
+                .revelation { background: #ffffff; border-color: #e2e8f0; box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06); }
+                .revelation-text, .ventana-intro { color: #334155; }
+                .quiz-summary-box, .ventana-scientific-intro, .ventana-importance-box,
+                .ventana-summary-box, .video-delay-indicator, .loading-box-custom { background: #f8fafc; border-color: #e2e8f0; color: #334155; }
+                .summary-title, .summary-quick-title, .importance-title,
+                .ventana-header-custom h2 { color: #16a34a; }
+                .summary-grid div, .importance-item, .summary-quick-item,
+                .ventana-scientific-intro p, .loading-step-item, .delay-text { color: #334155; }
+                .summary-grid span, .emotional-validation, .emotional-validation strong,
+                .loading-step-item.active, .fase-bullet-item, .fase-check { color: #16a34a; }
+                .emotional-validation { background: #f8fafc; border-color: #bbf7d0; }
+                .loading-step-item { color: #64748b; }
+                .progress-outer, .delay-progress-bar-container { background: #e2e8f0; }
+                .progress-inner, .delay-progress-bar { background: #16a34a; }
+                .progress-labels, .ventana-img-caption, .fase-timerange, .fase-next { color: #64748b; }
+                .fase-card-dopamine { background: #f8fafc; border-color: #e2e8f0; box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04); }
+                .fase-number { background: #16a34a; color: #ffffff; }
+                .fase-card-title { color: #0f172a; }
+                .fase-card-summary { color: #334155; }
+                .fase-card-warning { background: #f8fafc; border-left-color: #16a34a; color: #334155; }
+                .vsl-revelation .vsl-placeholder { border-color: #e2e8f0; }
+                .btn-green, .btn-yellow, .btn-orange, .cta-button,
+                .cta-final, .cta-buy, .cta-buy-sticky { background: #16a34a !important; color: #ffffff !important; }
+                .btn-green:hover, .btn-yellow:hover, .btn-orange:hover, .cta-button:hover,
+                .cta-final:hover, .cta-buy:hover, .cta-buy-sticky:hover { background: #15803d !important; }
+                .offer-section-custom { background: #ffffff; border-color: #16a34a; }
             `}</style>
         </div>
     );
