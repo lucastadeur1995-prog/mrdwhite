@@ -16,6 +16,7 @@ body {
   color: #0f172a;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  background: #ffffff;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -807,6 +808,34 @@ body {
     width: 100%;
   }
 }
+
+/* Paleta oficial aplicada transversalmente; lógica e estrutura permanecem intactas. */
+.matrix-bg, .scanlines { display: none; }
+.chat-container, .result-container { background: #ffffff; color: #334155; }
+.chat-header { background: #ffffff; border-bottom-color: #e2e8f0; }
+.progress-bar { background: #e2e8f0; }
+.progress-fill { background: #16a34a; box-shadow: none; }
+.progress-text, .processing-text { color: #16a34a; }
+.avatar-placeholder, .avatar-small { background: #16a34a; color: #ffffff; box-shadow: none; }
+.message.bot .message-bubble { background: #f8fafc; border-color: #e2e8f0; color: #334155; }
+.message.user .message-bubble { background: #f8fafc; border-color: #e2e8f0; color: #0f172a; }
+.option-button, .cta-button, .cta-final, .cta-buy, .cta-buy-sticky { background: #16a34a; color: #ffffff; }
+.option-button:hover, .cta-button:hover, .cta-final:hover, .cta-buy:hover, .cta-buy-sticky:hover { background: #15803d; box-shadow: 0 8px 20px rgba(22, 163, 74, 0.2); }
+.completion-badge { background: #f8fafc; border: 2px solid #16a34a; color: #0f172a; }
+.completion-count, .disclaimer, .guarantee-text, .indicator-label, .vsl-subtext { color: #64748b; }
+.result-header, .revelation { background: #ffffff; border-color: #e2e8f0; box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06); }
+.result-title, .revelation-header h2 { color: #0f172a; text-shadow: none; }
+.revelation-text { color: #334155; }
+.urgency-bar, .urgency-revelation { background: #f8fafc; border-color: #16a34a; }
+.urgency-text, .alert-text, .sticky-urgency, .indicator-value.countdown { color: #16a34a; }
+.revelation-icon, .play-icon { background: #f8fafc; border-color: #16a34a; color: #16a34a; }
+.vsl-placeholder { background: #f8fafc; border-color: #e2e8f0; }
+.vsl-text, .indicator-value.spots, .social-proof-count, .feature span { color: #16a34a; }
+.offer-revelation { background: #ffffff; border-color: #16a34a; }
+.offer-badge { background: #16a34a; box-shadow: 0 4px 15px rgba(22, 163, 74, 0.2); }
+.feature, .indicator { background: #f8fafc; border: 1px solid #e2e8f0; }
+.sticky-cta { background: #ffffff; border-top-color: #16a34a; box-shadow: 0 -4px 16px rgba(15, 23, 42, 0.08); }
+.spinner { border-color: #e2e8f0; border-top-color: #16a34a; }
 
 @media (max-width: 480px) {
   .headline {

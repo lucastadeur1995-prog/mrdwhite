@@ -180,7 +180,7 @@ export default function Result({ onNavigate }: ResultProps) {
             const vslPlaceholder = videoSectionRef.current?.querySelector('.vsl-placeholder');
             if (vslPlaceholder) {
                 vslPlaceholder.innerHTML = `
-                    <div style="position: relative; width: 100%; max-width: 400px; margin: 0 auto; aspect-ratio: 9 / 16; background: #000; border-radius: 8px; overflow: hidden;">
+                    <div style="position: relative; width: 100%; max-width: 400px; margin: 0 auto; aspect-ratio: 9 / 16; background: #f8fafc; border-radius: 8px; overflow: hidden;">
                         <vturb-smartplayer id="vid-6a89daaa4523d5d6f4642e05" style="display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></vturb-smartplayer>
                     </div>
                 `;
@@ -488,7 +488,7 @@ export default function Result({ onNavigate }: ResultProps) {
                 .ventana-scientific-intro p, .loading-step-item, .delay-text { color: #334155; }
                 .summary-grid span, .emotional-validation, .emotional-validation strong,
                 .loading-step-item.active, .fase-bullet-item, .fase-check { color: #16a34a; }
-                .emotional-validation { background: #f8fafc; border-color: #bbf7d0; }
+                .emotional-validation { background: #f8fafc; border-color: #16a34a; }
                 .loading-step-item { color: #64748b; }
                 .progress-outer, .delay-progress-bar-container { background: #e2e8f0; }
                 .progress-inner, .delay-progress-bar { background: #16a34a; }

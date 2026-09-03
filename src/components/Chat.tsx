@@ -360,17 +360,17 @@ export default function Chat({ onNavigate }: ChatProps) {
                 flexDirection: 'column',
                 gap: '12px',
                 padding: '24px',
-                background: 'linear-gradient(135deg, rgba(234, 179, 8, 0.2), rgba(74, 222, 128, 0.1))',
+                background: '#f8fafc',
                 borderRadius: '16px',
                 marginBottom: '16px',
-                border: '2px solid rgba(234, 179, 8, 0.5)',
+                border: '2px solid #16a34a',
                 boxShadow: '0 8px 24px rgba(234, 179, 8, 0.3)'
               }}
             >
               <div style={{
                 fontSize: 'clamp(1.5rem, 5vw, 2rem)',
                 fontWeight: '900',
-                color: 'rgb(250, 204, 21)',
+                color: '#16a34a',
                 textAlign: 'center',
                 lineHeight: '1.3'
               }}>
@@ -378,7 +378,7 @@ export default function Chat({ onNavigate }: ChatProps) {
               </div>
               <div style={{
                 fontSize: 'clamp(1rem, 4vw, 1.25rem)',
-                color: 'white',
+                color: '#334155',
                 lineHeight: '1.6',
                 textAlign: 'center'
               }}>
