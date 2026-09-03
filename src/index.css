@@ -870,7 +870,26 @@ body, #root { background: #ffffff !important; color: #334155 !important; }
 .result-container .indicator-value { color: #166534 !important; }
 .result-container .offer-section-custom .price, .result-container .offer-section-custom [class*="price"] { color: #0f172a !important; }
 .result-container .offer-section-custom input, .result-container .offer-section-custom select,
-.result-container .offer-section-custom textarea { background: #ffffff !important; color: #0f172a !important; border-color: #e2e8f0 !important; }
+  .result-container .offer-section-custom textarea { background: #ffffff !important; color: #0f172a !important; border-color: #e2e8f0 !important; }
+  /* A oferta possui estilos inline antigos; estes overrides garantem contraste real. */
+  .result-container .offer-section-custom p,
+  .result-container .offer-section-custom li,
+  .result-container .offer-section-custom label { color: #334155 !important; }
+  .result-container .offer-section-custom h2,
+  .result-container .offer-section-custom h3,
+  .result-container .offer-section-custom h4 { color: #0f172a !important; }
+  .result-container .offer-section-custom .offer-urgency-timer,
+  .result-container .offer-section-custom > div[style*="linear-gradient"],
+  .result-container .offer-section-custom > div[style*="rgba"] { background: #f8fafc !important; border-color: #e2e8f0 !important; }
+  .result-container .offer-section-custom .offer-urgency-timer p:last-child,
+  .result-container .offer-section-custom strong,
+  .result-container .offer-section-custom .feature span { color: #166534 !important; }
+  .result-container .offer-section-custom .feature,
+  .result-container .offer-section-custom .indicator { background: #f8fafc !important; border-color: #e2e8f0 !important; }
+  .result-container .offer-section-custom .cta-button,
+  .result-container .offer-section-custom button,
+  .result-container .offer-section-custom a { color: #ffffff !important; }
+
 
 @media (max-width: 480px) {
   .headline {
