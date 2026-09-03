@@ -837,6 +837,60 @@ body {
 .sticky-cta { background: #ffffff; border-top-color: #16a34a; box-shadow: 0 -4px 16px rgba(15, 23, 42, 0.08); }
 .spinner { border-color: #e2e8f0; border-top-color: #16a34a; }
 
+/* Contraste final: apenas branco, cinza neutro e os dois verdes oficiais. */
+body, #root { background: #ffffff !important; color: #334155 !important; }
+.chat-container *, .result-container * { text-shadow: none; }
+.chat-container h1, .chat-container h2, .chat-container h3,
+.result-container h1, .result-container h2, .result-container h3,
+.result-container h4 { color: #0f172a !important; font-weight: 700; }
+.chat-container p, .result-container p, .result-container li { color: #334155 !important; }
+.chat-container small, .result-container small, .result-container .secondary,
+.result-container .disclaimer, .result-container .fase-timerange, .result-container .fase-next { color: #475569 !important; }
+.chat-container button, .result-container button, .result-container a.cta-button,
+.result-container .btn-green, .result-container .btn-yellow, .result-container .btn-orange,
+.result-container .cta-final, .result-container .cta-buy, .result-container .cta-buy-sticky {
+  background: #16a34a !important; color: #ffffff !important; font-weight: 700; border-color: #16a34a !important;
+}
+.chat-container button:hover, .result-container button:hover, .result-container a.cta-button:hover,
+.result-container .btn-green:hover, .result-container .btn-yellow:hover, .result-container .btn-orange:hover,
+.result-container .cta-final:hover, .result-container .cta-buy:hover, .result-container .cta-buy-sticky:hover { background: #166534 !important; }
+.chat-container section, .result-container section, .result-container .revelation,
+.result-container .feature, .result-container .indicator, .result-container .fase-card-dopamine,
+.result-container .quiz-summary-box, .result-container .loading-box-custom,
+.result-container .ventana-scientific-intro, .result-container .ventana-importance-box,
+.result-container .ventana-summary-box, .result-container .video-delay-indicator,
+.result-container .offer-urgency-timer, .result-container .pre-offer-transition-section {
+  background: #f8fafc !important; border-color: #e2e8f0 !important; box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06) !important;
+}
+.result-container .offer-section-custom, .result-container .offer-revelation { background: #ffffff !important; border: 2px solid #16a34a !important; }
+.result-container .offer-badge, .result-container .fase-number { background: #16a34a !important; color: #ffffff !important; }
+.result-container .summary-title, .result-container .summary-quick-title, .result-container .importance-title,
+.result-container .ventana-header-custom h2, .result-container .fase-bullet-item,
+.result-container .fase-check, .result-container .social-proof-count, .result-container .vsl-text,
+.result-container .indicator-value { color: #166534 !important; }
+.result-container .offer-section-custom .price, .result-container .offer-section-custom [class*="price"] { color: #0f172a !important; }
+.result-container .offer-section-custom input, .result-container .offer-section-custom select,
+  .result-container .offer-section-custom textarea { background: #ffffff !important; color: #0f172a !important; border-color: #e2e8f0 !important; }
+  /* A oferta possui estilos inline antigos; estes overrides garantem contraste real. */
+  .result-container .offer-section-custom p,
+  .result-container .offer-section-custom li,
+  .result-container .offer-section-custom label { color: #334155 !important; }
+  .result-container .offer-section-custom h2,
+  .result-container .offer-section-custom h3,
+  .result-container .offer-section-custom h4 { color: #0f172a !important; }
+  .result-container .offer-section-custom .offer-urgency-timer,
+  .result-container .offer-section-custom > div[style*="linear-gradient"],
+  .result-container .offer-section-custom > div[style*="rgba"] { background: #f8fafc !important; border-color: #e2e8f0 !important; }
+  .result-container .offer-section-custom .offer-urgency-timer p:last-child,
+  .result-container .offer-section-custom strong,
+  .result-container .offer-section-custom .feature span { color: #166534 !important; }
+  .result-container .offer-section-custom .feature,
+  .result-container .offer-section-custom .indicator { background: #f8fafc !important; border-color: #e2e8f0 !important; }
+  .result-container .offer-section-custom .cta-button,
+  .result-container .offer-section-custom button,
+  .result-container .offer-section-custom a { color: #ffffff !important; }
+
+
 @media (max-width: 480px) {
   .headline {
     font-size: 1.25rem;
