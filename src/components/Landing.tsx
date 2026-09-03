@@ -62,37 +62,36 @@ export default function Landing({ onNavigate }: LandingProps) {
             <div className="content-wrapper">
                 <main className="landing-main-simple">
 
-                    {/* ========================================
-                        ✅ HEADLINE NOVA - COPY ATUALIZADA
-                        ======================================== */}
+                    <img
+                        className="hero-whatsapp-image"
+                        src="https://i.ibb.co/tMqxS6SX/wpp-dobra1.png"
+                        alt="Conversación de WhatsApp"
+                    />
+
                     <h1 className="headline-simple">
-                        <span className="headline-text">
-                            <span className="phrase-primary">Crees que ser un hombre 'bueno, paciente y comprensivo'<span className="highlight-orange">es lo que la traerá de vuelta?</span></span><br />
-                            <span className="phrase-secondary">Sí, eso es exactamente lo que el hombre que ella dejó de desear piensa mientras ve <span className="highlight-orange">cómo su propia relación se muere</span>.</span>
-                        </span>
+                        <span className="headline-text">Ella todavía te extraña.</span>
                     </h1>
 
+                    <div className="hero-copy">
+                        <span>Hay un momento exacto para reaparecer.</span>
+                        <span>El quiz te muestra cuándo.</span>
+                    </div>
 
-                    {/* CTA GRANDE COM ANIMAÇÃO DE PULSAÇÃO */}
+                    <p className="hero-coverage">No importa si hay silencio o si hay otra persona.</p>
+
                     <div className="cta-section-simple">
                         <button className="cta-button-simple" onClick={handleCTAClick}>
                             <span className="cta-glow"></span>
-                            <span className="cta-icon">⏰</span>
-                            <span className="cta-text">DESCUBRIR SI AÚN HAY TIEMPO</span>
+                            <span className="cta-text">QUIERO RECUPERARLA</span>
                         </button>
                     </div>
-
-                                        {/* ✅ SUB - NOVO ELEMENTO */}
-                    <p className="subtitle-simple">
-                        Responde 7 preguntas y te digo el <strong>próximo paso exacto</strong> para que ella vuelva a verte.
-                    </p>
 
                 </main>
 
                 {/* FOOTER MINIMALISTA */}
                 <footer className="landing-footer-simple">
                     <p className="disclaimer-simple">
-                        🔒 Anónimo • 2 minutos • Sin juicio • Sin email
+                        Anónimo · 2 minutos · Sin email
                     </p>
                 </footer>
             </div>
@@ -141,8 +140,38 @@ export default function Landing({ onNavigate }: LandingProps) {
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    gap: 3rem;
+                    gap: 1.25rem;
                     min-height: 70vh;
+                    text-align: center;
+                }
+
+                .hero-whatsapp-image {
+                    display: block;
+                    width: min(100%, 400px);
+                    height: auto;
+                    max-height: 38vh;
+                    object-fit: contain;
+                    margin: 0 auto 0.5rem;
+                    border-radius: 18px;
+                }
+
+                .hero-copy {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 0.15rem;
+                    max-width: 90%;
+                    color: #334155;
+                    font-size: clamp(1.05rem, 2.5vw, 1.3rem);
+                    line-height: 1.45;
+                }
+
+                .hero-coverage {
+                    max-width: 90%;
+                    margin: 0;
+                    color: #64748b;
+                    font-size: clamp(0.95rem, 2.2vw, 1.1rem);
+                    line-height: 1.45;
                 }
 
                 /* ========================================
@@ -236,8 +265,8 @@ export default function Landing({ onNavigate }: LandingProps) {
                 }
 
                 .cta-button-simple {
-                    background: linear-gradient(135deg, #ff3b3b 0%, #ff6b6b 100%);
-                    color: #fff;
+                    background: #16a34a;
+                    color: #ffffff;
                     border: none;
                     border-radius: 16px;
                     padding: 2rem 3rem;
@@ -370,11 +399,19 @@ export default function Landing({ onNavigate }: LandingProps) {
                         font-size: 1rem;
                     }
 
+                    .hero-whatsapp-image {
+                        width: min(100%, 400px);
+                        max-height: 34vh;
+                    }
+
                     .cta-button-simple {
-                        padding: 1.25rem 1.5rem;
-                        font-size: 1rem;
-                        flex-direction: column;
-                        gap: 0.5rem;
+                        width: min(90%, 360px);
+                        min-width: 0;
+                        padding: 1rem 2.5rem;
+                        font-size: 1.1rem;
+                        line-height: 1.25;
+                        text-align: center;
+                        flex-direction: row;
                     }
                 }
             `}</style>
